@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    width: 320px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button#generate {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button#generate:hover {
+    background-color: #45a049;
+  }
+  
+  button#save {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  button#save:hover {
+    background-color: #007bb5;
+  }
+  
+  #status {
+    margin-top: 10px;
+    color: green;
+  }
+  
+  #password-list {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #password-list li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #password-list li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
